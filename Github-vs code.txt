@@ -1,0 +1,2 @@
+Bu dosyayı git-hub VS-CODE dersi için yaptık
+hadi 2. satırı yazalım
