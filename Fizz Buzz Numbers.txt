@@ -1,0 +1,14 @@
+my_list=[*range(1,100)]
+for i in my_list:
+  if i%3 == 0 :
+    my_list.pop(i-1)
+    my_list.insert(i-1,"Fizz")
+  elif i%5 ==0 :
+    my_list.pop(i-1)
+    my_list.insert(i-1,"Buzz")
+  elif i%3 == 0 and i%5== 0:
+    my_list.pop(i-1)
+    my_list.insert(i-1,"FizzBuzz")
+
+for a in my_list:
+  print(a)
